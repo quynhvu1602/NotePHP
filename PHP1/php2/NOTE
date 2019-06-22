@@ -1,0 +1,47 @@
+- Form submit khi click chuot vao nut input  type="submit"
+- voi cac the thml khac muon tac dong vao the do de submit form thi phai dung JS
+- Form chi submit khi tra ve true
+- Mac dinh cua Form se o trang thai GET, muon form khi submit theo trang thai POST thi phai dat thuoc tinh method="post" vao trong the form
+- Trong the form co thuoc tinh onsubmit="javascript", su kien nay se duoc kich hoat khi an vao form control submit
+- requied: bat buoc phai nhap
+- GET : cac bien duoc truyen len url
+	- lay doi tuong theo kieu GET, du dung $_GET["ten bien"]
+
+- Form submit khi click chuot vao nut  input  type="submit"
+- voi cac the html khac muon tac dong vao the do de sunmit form thi phai dung JS
+- Form chi submit khi tra ve true
+- Mac dinh cua Form se o trang thai GET, muon form khi submit theo trang thai POST thi phai dat thuoc tinh method="post" vao trong the form
+- Trong the form co thuoc tinh onsubmit="javascript", su kien nay se duoc kich hoat khi an vao forn control submit
+- requied: bat buoc phai nhap
+- GET : cac bien duoc truyen len url
+	- lay doi tuong theo kieu GET, du dung $_GET["ten bien"]
+	- cau truc ca bien truyen len url:
+		tentrang.php?bien1=giatri1&bien2=giatri2...
+		-moi bien cach nhau boi dau &
+	
+-Array trong PHP 
+	gom 2 thanh phan
+		-key : chi so cua mang
+		-value: gia tri , value co the co cac gia tri khac nhau
+	Mot so cach dinh nghia mang
+		c1: $tenbien=array(giatri1,giatri2....)
+			truy xuat phan tu thu 0:	 $tenbien[0];
+			hien thi cau truc cua mang: 	print_r($tenbien);
+			hien thi so luong phan tu: 	count($tenbien);
+			them 1 phan tu vao mang: 	$tenbien[]=giatri;
+			xoa mot phan tu trong mang: 	unset($tenbien[0]);- xoa phan tu so 0
+			duyet tung phan tu cua array
+				foreach($tenbien as $key=>$value){}
+				foreach($tenbien as value)
+
+		c2: co the dinh nghia duoc ten key
+			$tenbien=array("tenkkey1"=>giatri,"tenkey2"=>giatri....)
+
+		Mot phan tu cua Array co the chua mot hoac nhieu array khac
+			vd: $tenbien=array(array1,array2....)
+
+load noi dung 1 file khac(data.php) vao file hien tai , su dung cau truc dau
+	include "tenfile";
+	include_once "tenfile";
+	required "tenfile";
+	required_once "tenfile";

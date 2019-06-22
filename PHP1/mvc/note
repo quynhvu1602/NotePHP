@@ -1,0 +1,6 @@
+MVC la một khái niệm,là một mô ình được phân ra thành 3 phần bao gồm :
+	-model ->la thành phần gần với CSDL, cứa các hàm thao tác CSDl
+	-Control-> năm giữa model và view, dùng để điều khiển thông tin, lấy dữ liệu từ model và truyền dữ liệu sang view
+	-View-> Nhân dữ liệu từ model, hiển thị dữ liệu lên màn hình
+Mỗi chức năng sẽ là một MVC, có nghĩa là mỗi MVC tương ứng với 1 chức năng trong website
+Để triệu gọi MVC, chỉ cần load file control(trong file control sẽ điề phối model và view)

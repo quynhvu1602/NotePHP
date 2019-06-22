@@ -1,0 +1,52 @@
+-voi cacs web viet bang ngon ngu html ,css, js, thi trinh duyet co the bien dich duoc. Nhung ngon nay hoat dong o phia client-> dat o bat cu dau cung co the chay duoc
+- Voi website iet bang ngon ngu php can trinh bien dich chay file nay thanh html, css, js de trinh duyet co the hieu duoc
+php la script(ngon ngu) hoat dong phia server
+-Cu phap cua php phai dat trong tag lenh cua php
+
+- quy tac khai bao bien:
+	$tenbien
+	cac bien khong chua cac ki tu dac biet
+	so khong duoc dung dau ten bien
+- cac kieu bien
+- cac phep toan
+-ket qua cuoi cung se quyet dinh kieu bien
+cac phep so sanh chi tra ve true hoac false
+-kien truc thuc hien 2 ve true:false
+	(phep so sanh) ? ket qua khi true : kêt qua khi false
+
+-khoi lenh if
+	if(ket qua phep so sanh tra ve true):
+		code html+php
+	endif;
+- kj
+khoi lenh switch case
+	switch(giatri){
+	
+	}
+- vong for
+	for():
+		html+php
+	endfor;
+
+bien cothe xuat o ben trong chuoi, dieu kien: chuoi phai bao quanh boi dau nhay doi("").neu vhuoi bao quanh boi dau nhay don('') thi tat ca se hieu la ki tu
+
+Ham duoc dinh nghia bang tu khoa  function tenham()
+	cac kieu ham
+		-ham co tham so
+		ham khong co tham so truyen vao
+		ham co gia tri tra ve
+		ham khong co gia tri tra ve
+	pham vi bien
+		bien cuc bo : ton tai trong hoac ngoai ham , khia bao bien o ngaoi thi khong the su dung o ben trong ham va nguoc lai
+		bien toan cuc: bien co the su dung o ca ben trg va ben ngoai ham, o ben trong ham muon khai bao mot bien thanh toan cuc thi su dung tu khoa global*
+
+-Form: su dung de truyen du lieu
+-Form co 2 phuong thuc:
+	-GET: truyen bien len url;
+	-POST:truyen ngầm từ trang này sang trang khác
+-Đối tượng  $_SERVER["REQUEST_METHOD"] se trả về trạng thái của trang(la kiểu GET hoặc POST)
+-Form muốn truyền theo kiểu POST
+	trong the form, dat thuộc tính action="post"
+	khi ấn nút submit thì form sẽ truyền theo kiểu POST
+	lấy giá trị truyền theo kiểu POST: $POST["ten form control"]
+Ham isset(doi tuong): se trả về true nếu đố tượng tồn tại

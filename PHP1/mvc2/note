@@ -1,0 +1,6 @@
+MVC la mô hình bao gồm 3 thành phần
+	-model: la phần gần nhất với CSDL, có chức năng thao tác với csdl. vi vậy các hàm dùng dể thao tác csdl sẽ đặt ở đây.
+	-controller: nằm giữa model và view có cức năng điều phối lấy dữ liệu từ model và truyền dữ liệu ra view sử dụng 
+	-view: sử dụng dữ liệu từ cotroller truyền ra để hiển thị
+	-> Mô hình mvc viết theo trình tự sẽ là: csdl <- model-> controller->view
+	- Dể gọi MVC, chi cần gọi file controller, khi đó file controller sẽ include model và view để thực hiện 
